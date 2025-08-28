@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1"
+            charset="UTF-8"
+        />
+        <meta name="description" content="MNIST Classification Using JS" />
+        <title>MNIST Classification</title>
+        <script src="./model.bundle.js" defer=""></script>
+        <script src="./main.bundle.js" defer=""></script>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/solid.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css"
+        />
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+        <canvas id="paint"></canvas>
+        <button
+            id="draw_btn"
+            type="button"
+            class="btn btn-outline-light draw_btn"
+            aria-label="draw"
+        >
+            <i class="fas fa-pencil"></i>
+        </button>
+        <button
+            id="erase_btn"
+            type="button"
+            class="btn btn-outline-light erase_btn"
+            aria-label="erase"
+        >
+            <i class="fas fa-eraser"></i>
+        </button>
+        <button
+            id="clear_btn"
+            type="button"
+            class="btn btn-outline-light clear_btn"
+            aria-label="clear"
+        >
+            <i class="fa-solid fa-delete-left"></i>
+        </button>
+        <button
+            id="compute_btn"
+            type="button"
+            class="btn btn-outline-light compute_btn"
+            aria-label="compute"
+        >
+            Compute
+        </button>
+        <div id="result_div" class="result_div"></div>
+    </body>
+</html>

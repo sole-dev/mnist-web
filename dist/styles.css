@@ -1,0 +1,52 @@
+body {
+    background: #121212;
+}
+#paint {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    background-color: white;
+    border: 10px outset gray;
+    border-radius: 20px;
+    outline: 0px solid black;
+    display: block;
+}
+.draw_btn {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 50px;
+    left: 820px;
+    cursor: pointer;
+}
+.erase_btn {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 130px;
+    left: 820px;
+    cursor: pointer;
+}
+.clear_btn {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 210px;
+    left: 820px;
+    cursor: pointer;
+}
+.compute_btn {
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    top: 350px;
+    left: 820px;
+    cursor: pointer;
+}
+.result_div {
+    position: absolute;
+    top: 400px;
+    left: 820px;
+    color: #ffffff;
+    font-size: 50px;
+}
